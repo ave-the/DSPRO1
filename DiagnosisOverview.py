@@ -7,7 +7,7 @@ df = pd.read_csv("diagnosed_cbc_data_v4.csv")
 
 
 diag_counts = df['Diagnosis'].value_counts()
-
+print(diag_counts)
 plt.figure(figsize=(8,5))
 diag_counts.plot(kind='bar', color='skyblue', edgecolor='black')
 plt.title("Häufigkeit der Diagnosen im Datensatz")
