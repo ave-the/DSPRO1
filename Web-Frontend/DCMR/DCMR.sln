@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCMR", "DCMR\DCMR\DCMR.csproj", "{8C65FCB2-4738-446E-AA75-C215C67C8EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCMR.Client", "DCMR\DCMR.Client\DCMR.Client.csproj", "{B60F112E-76C7-4A3F-AEF8-99FF9D6354A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9360A0EB-20DF-4BBD-B8C4-60AECBCB660B}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C65FCB2-4738-446E-AA75-C215C67C8EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C65FCB2-4738-446E-AA75-C215C67C8EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C65FCB2-4738-446E-AA75-C215C67C8EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C65FCB2-4738-446E-AA75-C215C67C8EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60F112E-76C7-4A3F-AEF8-99FF9D6354A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60F112E-76C7-4A3F-AEF8-99FF9D6354A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60F112E-76C7-4A3F-AEF8-99FF9D6354A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60F112E-76C7-4A3F-AEF8-99FF9D6354A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
