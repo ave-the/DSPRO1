@@ -1,14 +1,15 @@
-﻿@page "/predict"
+﻿@page "/"
 @inject HttpClient Http
 
 <h3>Blood Diagnosis Prediction</h3>
 
 <div class="card p-3">
 
-    <EditForm Model="@cbc" OnValidSubmit="@SendPrediction">
+    <EditForm Model="@cbc"
+              OnValidSubmit="@SendPrediction"
+              FormName="BloodPredictionForm">
         <DataAnnotationsValidator />
 
-        <!-- Dynamische Felder (hier einige Beispiele) -->
         <div class="mb-2">
             <label>RBC</label>
             <InputNumber @bind-Value="cbc.RBC" class="form-control" />
@@ -29,9 +30,7 @@
             <InputNumber @bind-Value="cbc.Platelets" class="form-control" />
         </div>
 
-        <!-- Alle anderen Felder hier ergänzen, entsprechend deiner CSV -->
-
-        <button class="btn btn-primary">Predict</button>
+        <button class="btn btn-primary" type="submit">Predict</button>
     </EditForm>
 
     @if (diagnosis != null)
