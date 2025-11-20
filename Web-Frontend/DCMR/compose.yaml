@@ -1,13 +1,13 @@
 ﻿services:
-  dcmr:
-    image: dcmr
-    build:
-      context: .
-      dockerfile: DCMR/DCMR/Dockerfile
-
   dcmr.client:
     image: dcmr.client
     build:
       context: .
       dockerfile: DCMR/DCMR.Client/Dockerfile
+
+  dcmr:
+    image: dcmr
+    build:
+      context: .
+      dockerfile: DCMR/DCMR/Dockerfile
 

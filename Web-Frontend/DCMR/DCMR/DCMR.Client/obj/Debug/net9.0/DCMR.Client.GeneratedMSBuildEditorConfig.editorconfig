@@ -1,0 +1,33 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = DCMR.Client
+build_property.RootNamespace = DCMR.Client
+build_property.ProjectDir = /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
