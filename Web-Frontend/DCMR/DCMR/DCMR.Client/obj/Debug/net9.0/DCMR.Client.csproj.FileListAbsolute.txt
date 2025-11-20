@@ -199,6 +199,8 @@
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
+/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/DCMR.Client.wux9vpm2w4.wasm
+/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/DCMR.Client.ealltacyae.pdb
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js.gz
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.z6jo10m0rd.wasm.gz
@@ -401,6 +403,8 @@
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat.gz
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.gz
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat.gz
+/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/DCMR.Client.wux9vpm2w4.wasm.gz
+/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/DCMR.Client.ealltacyae.pdb.gz
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/DCMR.Client.staticwebassets.runtime.json
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/DCMR.Client.staticwebassets.endpoints.json
@@ -1015,6 +1019,9 @@
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/compressed/kx8krj9n7u-tjcz0u77k5.gz
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/compressed/mn2kriy3kh-tptq2av103.gz
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/compressed/2y6eb8ujf7-lfu7j35m59.gz
+/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/compressed/nlyecn80ty-wux9vpm2w4.gz
+/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/compressed/fcgyt2pxri-ealltacyae.gz
+/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/compressed/2mt2jqrld8-cttfzh4c5c.gz
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/staticwebassets.build.json
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/staticwebassets.build.json.cache
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/staticwebassets.development.json
@@ -1024,10 +1031,3 @@
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/refint/DCMR.Client.dll
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/DCMR.Client.pdb
 /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/ref/DCMR.Client.dll
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/DCMR.Client.kmtu7cfa78.wasm
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/DCMR.Client.w490b7tgq4.pdb
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/DCMR.Client.kmtu7cfa78.wasm.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/bin/Debug/net9.0/wwwroot/_framework/DCMR.Client.w490b7tgq4.pdb.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/compressed/nlyecn80ty-kmtu7cfa78.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/compressed/fcgyt2pxri-w490b7tgq4.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.Client/obj/Debug/net9.0/compressed/2mt2jqrld8-z7k5dxli65.gz
