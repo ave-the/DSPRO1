@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DCMR.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+929404cab29f9af9c2e11f84e71e24248846cdf4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e07f3d4fe8f94bce81a4e0584313d959c65c85fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("DCMR.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DCMR.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
