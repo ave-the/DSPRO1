@@ -63,7 +63,7 @@
     {
         try
         {
-            var response = await Http.PostAsJsonAsync("https://localhost:8000/predict", cbc);
+            var response = await Http.PostAsJsonAsync("http://localhost:8000/predict", cbc);
 
             if (!response.IsSuccessStatusCode)
             {
