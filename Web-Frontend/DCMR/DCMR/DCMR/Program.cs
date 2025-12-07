@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using DCMR.Client.Pages;
 using DCMR.Components;
 using DCMR.Data;
+using Microsoft.AspNetCore.Components;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,15 @@ builder.Services.AddRazorComponents()
 //builder.Services.AddCascadingAuthenticationState();
 
 builder.Services.AddHttpClient();
+
+builder.Services.AddScoped(sp =>
+{
+    var nav = sp.GetRequiredService<NavigationManager>();
+    return new HttpClient
+    {
+        BaseAddress = new Uri(nav.BaseUri)
+    };
+});
 
 /*
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??

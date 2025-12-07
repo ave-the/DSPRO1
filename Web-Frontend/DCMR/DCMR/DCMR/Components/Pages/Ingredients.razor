@@ -1,0 +1,90 @@
+@page "/ingredients"
+@using System.Globalization
+@attribute [StreamRendering]
+
+@inject HttpClient Http
+
+
+<PageTitle>Weather</PageTitle>
+
+<h1>Ingredients</h1>
+
+<p>This component demonstrates showing data.</p>
+
+@if (ingredients == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>   
+        <tr>
+            <th>Name</th>
+            <th aria-label="Temperature in Celsius">Serving size</th>
+            <th aria-label="Temperature in Farenheit">Iron amount</th>
+            <th>Percentage daily value</th>
+            <th>IsVegetarian</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var ingredient in ingredients)
+        {
+            <tr>
+                <td>@ingredient.Name</td>
+                <td>@ingredient.Serving</td>
+                <td>@ingredient.Amount</td>
+                <td>@ingredient.PercentageDV</td>
+                <td>@ingredient.IsVegetarian</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@code {
+    private List<Ingredient> ingredients = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // CSV aus wwwroot laden (als Text)
+        var csv = await Http.GetStringAsync("data/top_200_iron_cleaned.csv");
+
+        // Zeilen splitten
+        var lines = csv.Split('\n');
+
+        foreach (var line in lines.Skip(1))  // Header überspringen
+        {
+            if (string.IsNullOrWhiteSpace(line))
+                continue;
+
+            var cols = line.Split(',');
+
+            if (cols.Length < 4)
+                continue;
+
+            ingredients.Add(new Ingredient
+            {
+                Name = cols[1].Trim(),
+                Serving = cols[2].Trim(),
+                Amount = cols[3].Trim(),
+                PercentageDV = cols[4].Trim(),
+                IsVegetarian = false
+            });
+        }
+
+        Console.WriteLine("Loaded ingredients: " + ingredients.Count);
+    }
+
+    private class Ingredient
+    {
+        public string? Name { get; set; }
+        public string? Serving { get; set; }
+        public string? Amount { get; set; }
+        public string? PercentageDV { get; set; }
+        public bool IsVegetarian { get; set; }
+    }
+}
+
+}
