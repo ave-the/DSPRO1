@@ -4,87 +4,150 @@
 
 @inject HttpClient Http
 
-
-<PageTitle>Weather</PageTitle>
-
 <h1>Ingredients</h1>
 
-<p>This component demonstrates showing data.</p>
-
-@if (ingredients == null)
+@if (ingredients == null || ingredients.Count == 0)
 {
-    <p>
-        <em>Loading...</em>
-    </p>
+    <p><em>Loading...</em></p>
 }
 else
 {
     <table class="table">
-        <thead>   
-        <tr>
-            <th>Name</th>
-            <th aria-label="Temperature in Celsius">Serving size</th>
-            <th aria-label="Temperature in Farenheit">Iron amount</th>
-            <th>Percentage daily value</th>
-            <th>IsVegetarian</th>
-        </tr>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Serving size (g)</th>
+                <th>Iron amount (mg)</th>
+                <th>Percentage daily value (%)</th>
+                <th>Is Vegetarian</th>
+            </tr>
         </thead>
         <tbody>
         @foreach (var ingredient in ingredients)
         {
             <tr>
+                <td>
+                    <input type="checkbox"
+                           @bind="ingredient.IsSelected" />
+                </td>
                 <td>@ingredient.Name</td>
                 <td>@ingredient.Serving</td>
-                <td>@ingredient.Amount</td>
+                <td>@ingredient.AmountMg</td>
                 <td>@ingredient.PercentageDV</td>
-                <td>@ingredient.IsVegetarian</td>
+                <td>@(ingredient.IsVegetarian ? "Yes" : "No")</td>
             </tr>
         }
         </tbody>
     </table>
+
+    <h3>Selected ingredients</h3>
+    <ul>
+        @foreach (var ing in SelectedIngredients)
+        {
+            <li>@ing.Name (@ing.AmountMg mg)</li>
+        }
+    </ul>
 }
+
 @code {
     private List<Ingredient> ingredients = new();
 
+    // Separate object holding selected ingredients
+    public List<Ingredient> SelectedIngredients =>  ingredients.Where(i => i.IsSelected).ToList();
+
     protected override async Task OnInitializedAsync()
     {
-        // CSV aus wwwroot laden (als Text)
-        var csv = await Http.GetStringAsync("data/top_200_iron_cleaned.csv");
+        await LoadCsv();
+    }
 
-        // Zeilen splitten
-        var lines = csv.Split('\n');
+    private async Task LoadCsv()
+    {
+        using var stream = await Http.GetStreamAsync("data/top_200_iron_cleaned.csv");
+        using var reader = new StreamReader(stream);
 
-        foreach (var line in lines.Skip(1))  // Header überspringen
+        string? line;
+        bool skipHeader = true;
+
+        while ((line = await reader.ReadLineAsync()) != null)
         {
-            if (string.IsNullOrWhiteSpace(line))
-                continue;
+            if (skipHeader) { skipHeader = false; continue; }
 
-            var cols = line.Split(',');
+            var columns = SplitCsvLine(line);
 
-            if (cols.Length < 4)
+            // Erwartet: Name, Serving, AmountMg, PercentageDV, IsVegetarian
+            if (columns.Length < 5)
                 continue;
 
             ingredients.Add(new Ingredient
             {
-                Name = cols[1].Trim(),
-                Serving = cols[2].Trim(),
-                Amount = cols[3].Trim(),
-                PercentageDV = cols[4].Trim(),
-                IsVegetarian = false
+                Name = CleanName(columns[1]),
+                Serving = ParseFloat(columns[2]),
+                AmountMg = ParseFloat(columns[3]),
+                PercentageDV = ParseFloat(columns[4]),
+                IsVegetarian = false,
+                IsSelected = false
             });
         }
-
-        Console.WriteLine("Loaded ingredients: " + ingredients.Count);
     }
 
-    private class Ingredient
+    private string[] SplitCsvLine(string line)
+    {
+        var result = new List<string>();
+        bool inQuotes = false;
+        string current = "";
+
+        foreach (char c in line)
+        {
+            if (c == '\"')
+            {
+                inQuotes = !inQuotes;
+                continue;
+            }
+
+            if (c == ',' && !inQuotes)
+            {
+                result.Add(current);
+                current = "";
+            }
+            else
+            {
+                current += c;
+            }
+        }
+
+        result.Add(current);
+        return result.ToArray();
+    }
+
+    private float ParseFloat(string raw)
+    {
+        var cleaned = new string(raw.Where(c => char.IsDigit(c) || c == '.' || c == '-').ToArray());
+        float.TryParse(cleaned, NumberStyles.Any, CultureInfo.InvariantCulture, out float value);
+        return value;
+    }
+
+    private string CleanName(string input)
+    {
+        input = input.Trim();
+
+        if (input.StartsWith("\"") && input.EndsWith("\""))
+            input = input[1..^1];
+
+        input = input.Replace(",", " ");
+
+        return input.Trim();
+    }
+
+    public class Ingredient
     {
         public string? Name { get; set; }
-        public string? Serving { get; set; }
-        public string? Amount { get; set; }
-        public string? PercentageDV { get; set; }
+        public float Serving { get; set; }
+        public float AmountMg { get; set; }
+        public float PercentageDV { get; set; }
         public bool IsVegetarian { get; set; }
-    }
-}
 
+        // Checkbox state
+        public bool IsSelected { get; set; }
+    }
 }
