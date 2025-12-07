@@ -11,10 +11,14 @@ from sklearn.model_selection import train_test_split, KFold, cross_val_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 
+from fastapi.middleware.cors import CORSMiddleware
+
+
 # ------------------------------------------------------------
 # 1. Daten laden und Modell einmalig trainieren
 # ------------------------------------------------------------
 df = pd.read_csv("Datasets/diagnosed_cbc_data_v4.csv")
+print("Loaded columns:", list(df.columns))
 
 # Features und Zielvariable
 X = df.drop("Diagnosis", axis=1)
@@ -49,6 +53,13 @@ rf.fit(X_train, y_train)
 # ------------------------------------------------------------
 app = FastAPI(title="CBC Diagnosis API")
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # oder genaue Origin
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # ------------------------------------------------------------
 # 3. Dynamisches Input-Modell basierend auf Spalten
@@ -74,4 +85,4 @@ def predict(input_data: CBCInput):
     prediction = rf.predict(df_scaled)[0]
 
     # Nur Klassifikation zurückgeben
-    return {"diagnosis": str(prediction)}
+    return {"diagnosis": str(input_data)}
