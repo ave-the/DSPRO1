@@ -5,8 +5,11 @@ import pandas as pd
 # List of nutrients and their corresponding URLs
 nutrients = {
     "iron": "https://tools.myfooddata.com/nutrient-ranking-tool/iron/beans-and-lentils+dairy-and-egg-products+fish+fruits+grains-and-pasta+meats+nuts-and-seeds+spices-and-herbs+vegetables/highest/grams/sr/no",
+    "iron-v2": "https://tools.myfooddata.com/nutrient-ranking-tool/iron/beans-and-lentils+dairy-and-egg-products+fruits+grains-and-pasta+nuts-and-seeds+vegetables/highest/grams/sr/no",
     "folate-b9": "https://tools.myfooddata.com/nutrient-ranking-tool/folate-b9/beans-and-lentils+dairy-and-egg-products+fish+fruits+grains-and-pasta+meats+nuts-and-seeds+spices-and-herbs+vegetables/highest/grams/sr/no",
+    "folate-b9-v2": "https://tools.myfooddata.com/nutrient-ranking-tool/folate-b9/beans-and-lentils+dairy-and-egg-products+fruits+grains-and-pasta+nuts-and-seeds+vegetables/highest/grams/sr/no",
     "vitamin-b12": "https://tools.myfooddata.com/nutrient-ranking-tool/vitamin-b12/beans-and-lentils+dairy-and-egg-products+fish+fruits+grains-and-pasta+meats+nuts-and-seeds+spices-and-herbs+vegetables/highest/grams/sr/no",
+    "vitamin-b12-v2": "https://tools.myfooddata.com/nutrient-ranking-tool/vitamin-b12/beans-and-lentils+dairy-and-egg-products+fruits+grains-and-pasta+nuts-and-seeds+vegetables/highest/grams/sr/no"
 }
 
 # Function to scrape one table
@@ -51,6 +54,12 @@ for nutrient, url in nutrients.items():
     dfs[nutrient] = scrape_table(url, nutrient)
 
 # Example: Save each DataFrame as CSV
-dfs["iron"].to_csv("top_200_iron.csv", index=False)
-dfs["folate-b9"].to_csv("top_200_folate_b9.csv", index=False)
-dfs["vitamin-b12"].to_csv("top_200_vitamin_b12.csv", index=False)
+dfs["iron"].to_csv("Datasets/top_200_iron.csv", index=False)
+dfs["iron-v2"].to_csv("Datasets/top_200_iron_v2.csv", index=False)
+
+dfs["folate-b9"].to_csv("Datasets/top_200_folate_b9.csv", index=False)
+dfs["folate-b9-v2"].to_csv("Datasets/top_200_folate_b9_v2.csv", index=False)
+
+dfs["vitamin-b12"].to_csv("Datasets/top_200_vitamin_b12.csv", index=False)
+dfs["vitamin-b12-v2"].to_csv("Datasets/top_200_vitamin_b12_v2.csv", index=False)
+
