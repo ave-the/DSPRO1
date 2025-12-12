@@ -3,11 +3,5 @@
     image: dcmr
     build:
       context: .
-      dockerfile: DCMR/DCMR/Dockerfile
-
-  dcmr.client:
-    image: dcmr.client
-    build:
-      context: .
-      dockerfile: DCMR/DCMR.Client/Dockerfile
+      dockerfile: DCMR/Dockerfile
 

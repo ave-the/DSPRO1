@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dYrzTufWVXw=",
+  "success": true,
+  "projectFilePath": "/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.csproj",
+  "expectedPackageFiles": [
+    "/Users/oliverhausermann/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.0/microsoft.aspnetcore.app.internal.assets.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
