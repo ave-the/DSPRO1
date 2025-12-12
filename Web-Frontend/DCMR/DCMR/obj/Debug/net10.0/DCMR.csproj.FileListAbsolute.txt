@@ -1,86 +1,88 @@
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/bin/Debug/net10.0/appsettings.Development.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/bin/Debug/net10.0/appsettings.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/bin/Debug/net10.0/DCMR.staticwebassets.runtime.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/bin/Debug/net10.0/DCMR.staticwebassets.endpoints.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/bin/Debug/net10.0/DCMR
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/bin/Debug/net10.0/DCMR.deps.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/bin/Debug/net10.0/DCMR.runtimeconfig.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/bin/Debug/net10.0/DCMR.dll
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/bin/Debug/net10.0/DCMR.pdb
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/EmbeddedAttribute.cs
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/ValidatableTypeAttribute.cs
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/rpswa.dswa.cache.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/DCMR.GeneratedMSBuildEditorConfig.editorconfig
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/DCMR.AssemblyInfoInputs.cache
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/DCMR.AssemblyInfo.cs
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/DCMR.csproj.CoreCompileInputs.cache
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/DCMR.MvcApplicationPartsAssemblyInfo.cache
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/DCMR.sourcelink.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/rjimswa.dswa.cache.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/scopedcss/Components/Layout/ReconnectModal.razor.rz.scp.css
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/scopedcss/bundle/DCMR.styles.css
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/scopedcss/projectbundle/DCMR.bundle.scp.css
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/jn09a5qyal-{0}-w7mf952350-w7mf952350.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/vp8jpmu0da-{0}-bqjiyaj88i-bqjiyaj88i.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/7rbbn9cyce-{0}-c2jlpeoesf-c2jlpeoesf.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/low301uc34-{0}-erw9l3u2r3-erw9l3u2r3.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/5bginxlzl6-{0}-aexeepp0ev-aexeepp0ev.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/ftzj6z9pgk-{0}-d7shbmvgxk-d7shbmvgxk.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/4h6ulhj7dt-{0}-ausgxo2sd3-ausgxo2sd3.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/ifijkozoiw-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/51jjgrgnxs-{0}-cosvhxvwiu-cosvhxvwiu.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/tk0jfn27nq-{0}-ub07r2b239-ub07r2b239.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/9cp8xqkbyu-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/6z773zo5nk-{0}-b7pk76d08c-b7pk76d08c.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/xbdvq9l2c2-{0}-fsbi9cje9m-fsbi9cje9m.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/kbzxk3uqre-{0}-rzd6atqjts-rzd6atqjts.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/jcpw0poxaq-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/97yz829o2k-{0}-dxx9fxp4il-dxx9fxp4il.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/46osfo9wzr-{0}-jd9uben2k1-jd9uben2k1.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/3pjxqne9c9-{0}-khv3u5hwcm-khv3u5hwcm.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/z82rh4ydkw-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/tdqqgnyrhm-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/rdb06j5phd-{0}-c2oey78nd0-c2oey78nd0.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/6ww4wghyqz-{0}-tdbxkamptv-tdbxkamptv.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/009elcfnn9-{0}-j5mq2jizvt-j5mq2jizvt.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/c6ts5cchz9-{0}-06098lyss8-06098lyss8.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/mook1smb5l-{0}-nvvlpmu67g-nvvlpmu67g.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/hmn1zxgeo8-{0}-s35ty4nyc5-s35ty4nyc5.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/axeu5pks5b-{0}-pj5nd1wqec-pj5nd1wqec.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/thb0rg0c6q-{0}-46ein0sx1k-46ein0sx1k.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/qdvru43ds4-{0}-v0zj4ognzu-v0zj4ognzu.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/cm39k5v4k5-{0}-37tfw0ft22-37tfw0ft22.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/77aewds0sy-{0}-hrwsygsryq-hrwsygsryq.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/ixzzsgg1ba-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/4folnngq7k-{0}-ft3s53vfgj-ft3s53vfgj.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/5ujohp4w93-{0}-6cfz1n2cew-6cfz1n2cew.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/i1t9ql7trn-{0}-6pdc2jztkx-6pdc2jztkx.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/ee9ba7wb99-{0}-493y06b0oq-493y06b0oq.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/p1cyhl1ch8-{0}-iovd86k7lj-iovd86k7lj.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/30n0ckhxn3-{0}-vr1egmr9el-vr1egmr9el.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/8gemmxcldd-{0}-kbrnm935zg-kbrnm935zg.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/xlp82yim6n-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/of16ezv1rj-{0}-y7v9cxd14o-y7v9cxd14o.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/bn8k6bx7fh-{0}-notf2xhcfb-notf2xhcfb.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/atlt9dn4uu-{0}-h1s4sie4z3-h1s4sie4z3.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/tnmyj5fzvi-{0}-63fj8s7r0e-63fj8s7r0e.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/7her636kot-{0}-0j3bgjxly4-0j3bgjxly4.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/3l2c1r4r4j-{0}-w97mql0d9w-w97mql0d9w.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/lrer58xtzx-{0}-j8lzlu28q6-j8lzlu28q6.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/4mj4m5z8w8-{0}-u1n4jc5v46-u1n4jc5v46.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/on4c78nmzd-{0}-tjw3wx6xq2-tjw3wx6xq2.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/compressed/iad17ywtp7-{0}-tjw3wx6xq2-tjw3wx6xq2.gz
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/staticwebassets.build.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/staticwebassets.build.json.cache
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/staticwebassets.development.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/staticwebassets.build.endpoints.json
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/swae.build.ex.cache
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/DCMR.dll
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/refint/DCMR.dll
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/DCMR.pdb
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/DCMR.genruntimeconfig.cache
-/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/Debug/net10.0/ref/DCMR.dll
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\bin\Debug\net10.0\DCMR.exe
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\bin\Debug\net10.0\DCMR.dll
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\bin\Debug\net10.0\appsettings.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\bin\Debug\net10.0\DCMR.staticwebassets.runtime.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\bin\Debug\net10.0\DCMR.staticwebassets.endpoints.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\EmbeddedAttribute.cs
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\DCMR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\DCMR.AssemblyInfoInputs.cache
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\DCMR.AssemblyInfo.cs
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\DCMR.csproj.CoreCompileInputs.cache
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\DCMR.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\DCMR.sourcelink.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\scopedcss\bundle\DCMR.styles.css
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\scopedcss\projectbundle\DCMR.bundle.scp.css
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\jn09a5qyal-{0}-khy4lop6wu-khy4lop6wu.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\vp8jpmu0da-{0}-t1cqhe9u97-t1cqhe9u97.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\7rbbn9cyce-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\low301uc34-{0}-sejl45xvog-sejl45xvog.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\5bginxlzl6-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\ftzj6z9pgk-{0}-xvp3kq03qx-xvp3kq03qx.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\4h6ulhj7dt-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\ifijkozoiw-{0}-22vffe00uq-22vffe00uq.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\51jjgrgnxs-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\tk0jfn27nq-{0}-qesaa3a1fm-qesaa3a1fm.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\9cp8xqkbyu-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\6z773zo5nk-{0}-tmc1g35s3z-tmc1g35s3z.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\xbdvq9l2c2-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\kbzxk3uqre-{0}-rxsg74s51o-rxsg74s51o.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\jcpw0poxaq-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\97yz829o2k-{0}-q9ht133ko3-q9ht133ko3.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\46osfo9wzr-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\3pjxqne9c9-{0}-gye83jo8yx-gye83jo8yx.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\z82rh4ydkw-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\tdqqgnyrhm-{0}-wl58j5mj3v-wl58j5mj3v.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\rdb06j5phd-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\6ww4wghyqz-{0}-d4r6k3f320-d4r6k3f320.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\009elcfnn9-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\c6ts5cchz9-{0}-keugtjm085-keugtjm085.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\mook1smb5l-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\hmn1zxgeo8-{0}-zub09dkrxp-zub09dkrxp.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\axeu5pks5b-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\thb0rg0c6q-{0}-43atpzeawx-43atpzeawx.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\qdvru43ds4-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\cm39k5v4k5-{0}-ynyaa8k90p-ynyaa8k90p.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\77aewds0sy-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\ixzzsgg1ba-{0}-c63t5i9ira-c63t5i9ira.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\4folnngq7k-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\5ujohp4w93-{0}-4094rpi4f9-4094rpi4f9.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\i1t9ql7trn-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\ee9ba7wb99-{0}-hd3gran6i8-hd3gran6i8.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\p1cyhl1ch8-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\30n0ckhxn3-{0}-ltid2c489k-ltid2c489k.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\8gemmxcldd-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\xlp82yim6n-{0}-8vyfqsqgz1-8vyfqsqgz1.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\of16ezv1rj-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\bn8k6bx7fh-{0}-u9q1upor1n-u9q1upor1n.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\atlt9dn4uu-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\tnmyj5fzvi-{0}-4d85u1mtcx-4d85u1mtcx.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\7her636kot-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\3l2c1r4r4j-{0}-13ja33weya-13ja33weya.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\lrer58xtzx-{0}-wmp8iwak4q-wmp8iwak4q.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\4mj4m5z8w8-{0}-2lgipwaf5j-2lgipwaf5j.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\on4c78nmzd-{0}-zmfqx073zf-zmfqx073zf.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\iad17ywtp7-{0}-zmfqx073zf-zmfqx073zf.gz
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\DCMR.dll
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\refint\DCMR.dll
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\DCMR.pdb
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\bin\Debug\net10.0\DCMR.deps.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\bin\Debug\net10.0\DCMR.runtimeconfig.json
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\bin\Debug\net10.0\DCMR.pdb
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\DCMR.genruntimeconfig.cache
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\ref\DCMR.dll
+C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\obj\Debug\net10.0\compressed\ll8xyzl7oo-{0}-llhstmrfsd-llhstmrfsd.gz

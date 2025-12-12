@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.csproj": {}
+    "C:\\Users\\thomas.ewald\\OneDrive - Hochschule Luzern\\Dokumente\\5_HS2025\\DSPRO1\\DSPRO1\\Web-Frontend\\DCMR\\DCMR\\DCMR.csproj": {}
   },
   "projects": {
-    "/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.csproj": {
+    "C:\\Users\\thomas.ewald\\OneDrive - Hochschule Luzern\\Dokumente\\5_HS2025\\DSPRO1\\DSPRO1\\Web-Frontend\\DCMR\\DCMR\\DCMR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.csproj",
+        "projectUniqueName": "C:\\Users\\thomas.ewald\\OneDrive - Hochschule Luzern\\Dokumente\\5_HS2025\\DSPRO1\\DSPRO1\\Web-Frontend\\DCMR\\DCMR\\DCMR.csproj",
         "projectName": "DCMR",
-        "projectPath": "/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.csproj",
-        "packagesPath": "/Users/oliverhausermann/.nuget/packages/",
-        "outputPath": "/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/obj/",
+        "projectPath": "C:\\Users\\thomas.ewald\\OneDrive - Hochschule Luzern\\Dokumente\\5_HS2025\\DSPRO1\\DSPRO1\\Web-Frontend\\DCMR\\DCMR\\DCMR.csproj",
+        "packagesPath": "C:\\Users\\thomas.ewald\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thomas.ewald\\OneDrive - Hochschule Luzern\\Dokumente\\5_HS2025\\DSPRO1\\DSPRO1\\Web-Frontend\\DCMR\\DCMR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/oliverhausermann/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\thomas.ewald\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,7 +49,7 @@
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.0, )",
+              "version": "[10.0.1, )",
               "autoReferenced": true
             }
           },
@@ -70,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

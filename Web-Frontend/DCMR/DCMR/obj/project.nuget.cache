@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dYrzTufWVXw=",
+  "dgSpecHash": "cuT5j31JONM=",
   "success": true,
-  "projectFilePath": "/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/DCMR.csproj",
+  "projectFilePath": "C:\\Users\\thomas.ewald\\OneDrive - Hochschule Luzern\\Dokumente\\5_HS2025\\DSPRO1\\DSPRO1\\Web-Frontend\\DCMR\\DCMR\\DCMR.csproj",
   "expectedPackageFiles": [
-    "/Users/oliverhausermann/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.0/microsoft.aspnetcore.app.internal.assets.10.0.0.nupkg.sha512"
+    "C:\\Users\\thomas.ewald\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.1\\microsoft.aspnetcore.app.internal.assets.10.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,5 +1,8 @@
 @page "/recipes"
+@rendermode InteractiveServer
+
 @inject IHuggingFaceClient HF
+@inject IJSRuntime JS
 
 <h3>Rezepte Generator</h3>
 
@@ -28,7 +31,7 @@
     {
         var selectedIngredients = Ingredients
             .Where(i => i.IsSelected)
-            .Select(i => i.Name)
+            .Select(i => i)
             .ToList();
 
         if (selectedIngredients.Count == 0)
@@ -37,8 +40,8 @@
             return;
         }
 
-        var prompt = $"Erstelle ein Rezept mit den folgenden Zutaten: {string.Join(", ", selectedIngredients)}. Gib das Ergebnis im JSON-Format zurück mit den Feldern 'title', 'ingredients' und 'instructions'.";
+        @* var prompt = $"Erstelle ein Rezept mit den folgenden Zutaten: {string.Join(", ", selectedIngredients)}. Gib das Ergebnis im JSON-Format zurück mit den Feldern 'title', 'ingredients' und 'instructions'."; *@
 
-        JsonResponse = await HF.GetRecipeAsync(prompt);
+        JsonResponse = await HF.GetRecipeAsync(selectedIngredients);
     }
 }

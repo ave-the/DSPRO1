@@ -11,61 +11,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DCMR
 build_property.RootNamespace = DCMR
-build_property.ProjectDir = /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/
+build_property.ProjectDir = C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR
+build_property.MSBuildProjectDirectory = C:\Users\thomas.ewald\OneDrive - Hochschule Luzern\Dokumente\5_HS2025\DSPRO1\DSPRO1\Web-Frontend\DCMR\DCMR
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/NotFound.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ob3RGb3VuZC5yYXpvcg==
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/Ingredients.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmdyZWRpZW50cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/Recipes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9SZWNpcGVzLnJhem9y
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/NotFound.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Pages/Recipes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWNpcGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-cb67h4i395
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-s59phi2khb
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-k4qm1f0wqa
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-5lnioyhdl4
 
-[/Volumes/OliverTranscendSSD/Studium/5_Semester/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Layout/ReconnectModal.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUmVjb25uZWN0TW9kYWwucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-991stg5b8s
+[C:/Users/thomas.ewald/OneDrive - Hochschule Luzern/Dokumente/5_HS2025/DSPRO1/DSPRO1/Web-Frontend/DCMR/DCMR/Components/Layout/ReconnectModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUmVjb25uZWN0TW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-p36rtkiog6
