@@ -5,7 +5,9 @@ using DCMR.Client.Pages;
 using DCMR.Components;
 using DCMR.Data;
 using Microsoft.AspNetCore.Components;
-
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +29,11 @@ builder.Services.AddScoped(sp =>
     };
 });
 
+
+builder.Services.AddRazorPages();
+builder.Services.AddHttpClient();
+builder.Services.AddSingleton<IHuggingFaceClient, HuggingFaceClient>();
+
 /*
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
                        throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");*/
@@ -41,6 +48,8 @@ builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.Requ
     .AddDefaultTokenProviders();*/
 
 //builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
+
+
 
 var app = builder.Build();
 
@@ -60,7 +69,6 @@ else
 app.UseHttpsRedirection();
 
 
-app.UseAntiforgery();
 
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
@@ -68,6 +76,11 @@ app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(DCMR.Client._Imports).Assembly);
 
+app.UseStaticFiles();
+app.UseRouting();
+app.UseAntiforgery();
+
+app.MapRazorPages();
 // Add additional endpoints required by the Identity /Account Razor components.
 //app.MapAdditionalIdentityEndpoints();
 
