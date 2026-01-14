@@ -1,4 +1,4 @@
-﻿@page "/ingredients-iron"
+@page "/ingredients-b12"
 @rendermode InteractiveServer
 @inject OllamaClient OllamaClient
 
@@ -27,7 +27,7 @@ else
                 <th></th>
                 <th>Name</th>
                 <th>Serving size (g)</th>
-                <th>Iron amount (mg)</th>
+                <th>Vitamin B12 amount (mcg)</th>
                 <th>Percentage daily value (%)</th>
                 <th>Is Vegetarian</th>
             </tr>
@@ -102,7 +102,7 @@ else
         var result = string.Join(", ", selectedIngredients);
         
         var prompt = "Make me a recipe with:" + result +
-                     " and show me the iron content. If you cannot find a recipe with exact that, tell me what ingredient you didn't include and give me an alternative similar ingredient in the recipe.";
+                     " and show me the Vitamin B-12 content. If you cannot find a recipe with exact that, tell me what ingredient you didn't include and give me an alternative similar ingredient in the recipe.";
         try
         {
             _answer = await OllamaClient.GenerateAsync(prompt);
@@ -125,7 +125,7 @@ else
         Console.WriteLine("Loading CSV file...");
 
         
-        var path = Path.Combine(Env.ContentRootPath, @"wwwroot/Data", "top_200_iron_cleaned.csv");
+        var path = Path.Combine(Env.ContentRootPath, @"wwwroot/Data", "top_200_vitamin_b12_v2_cleaned.csv");
 
         // Datei als Stream öffnen
         await using var stream = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.Read);
@@ -150,7 +150,7 @@ else
                 Serving = ParseFloat(columns[2]),
                 AmountMg = ParseFloat(columns[3]),
                 PercentageDV = ParseFloat(columns[4]),
-                Micronutrient = "iron",
+                Micronutrient = "b12",
                 IsVegetarian = false,
                 IsSelected = false
             });

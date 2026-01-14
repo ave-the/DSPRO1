@@ -1,4 +1,5 @@
 using DCMR.Components;
+using DCMR.Models;
 using DCMR.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,7 @@ builder.Services.AddHttpClient();
 builder.Services.AddSingleton<IHuggingFaceClient, HuggingFaceClient>();
 
 
+builder.Services.AddHttpClient<OllamaClient>();
 
 var app = builder.Build();
 

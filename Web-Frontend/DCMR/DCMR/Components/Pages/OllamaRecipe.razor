@@ -1,0 +1,41 @@
+@page "/ollama-recipe"
+@inject OllamaClient OllamaClient
+@rendermode InteractiveServer
+
+<h3>Local Ollama Recipe</h3>
+
+<button class="btn btn-primary" @onclick="@CallOllama" disabled="@_isLoading">
+    @_buttonText
+</button>
+
+@if (!string.IsNullOrWhiteSpace(_answer))
+{
+    <h4>Answer</h4>
+    <pre>@_answer</pre>
+}
+
+@code {
+    private string _answer = string.Empty;
+    private bool _isLoading = false;
+    private string _buttonText = "Ask for recipe";
+
+    private async Task CallOllama()
+    {
+        _isLoading = true;
+        _buttonText = "Thinking...";
+
+        var prompt = "Make me a recipe with carrots and potatoes and show me the iron content.";
+        try
+        {
+            _answer = await OllamaClient.GenerateAsync(prompt);
+
+            _isLoading = false;
+            _buttonText = "Ask for recipe";
+        }
+        catch (Exception e)
+        {
+            _answer = "Failed";
+        }
+
+    }
+}
