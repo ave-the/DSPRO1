@@ -1,0 +1,137 @@
+@page "/"
+@using System.Text.Json
+@inject HttpClient Http
+
+<h3>Blood Diagnosis Prediction</h3>
+
+<div class="card p-3">
+    <EditForm Model="@cbc"
+              OnValidSubmit="@SendPrediction"
+              FormName="BloodPredictionForm">
+        <DataAnnotationsValidator />
+
+        <div class="mb-2">
+            <label>WBC</label>
+            <InputNumber @bind-Value="cbc.WBC" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>LYMp</label>
+            <InputNumber @bind-Value="cbc.LYMp" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>NEUTp</label>
+            <InputNumber @bind-Value="cbc.NEUTp" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>LYMn</label>
+            <InputNumber @bind-Value="cbc.LYMn" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>NEUTn</label>
+            <InputNumber @bind-Value="cbc.NEUTn" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>RBC</label>
+            <InputNumber @bind-Value="cbc.RBC" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>HGB</label>
+            <InputNumber @bind-Value="cbc.HGB" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>HCT</label>
+            <InputNumber @bind-Value="cbc.HCT" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>MCV</label>
+            <InputNumber @bind-Value="cbc.MCV" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>MCH</label>
+            <InputNumber @bind-Value="cbc.MCH" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>MCHC</label>
+            <InputNumber @bind-Value="cbc.MCHC" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>PLT</label>
+            <InputNumber @bind-Value="cbc.PLT" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>PDW</label>
+            <InputNumber @bind-Value="cbc.PDW" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>PCT</label>
+            <InputNumber @bind-Value="cbc.PCT" class="form-control" />
+        </div>
+
+        <button class="btn btn-primary" type="submit">Predict</button>
+    </EditForm>
+
+    @if (diagnosis != null)
+    {
+        <div class="alert alert-info mt-3">
+            <b>Diagnosis:</b> @diagnosis
+        </div>
+    }
+</div>
+
+@code {
+    // Model for input values
+    public class CBCInput
+    {
+        public float WBC { get; set; } = 0.0f;
+        public float LYMp { get; set; } = 0.0f;
+        public float NEUTp { get; set; } = 0.0f;
+        public float LYMn { get; set; } = 0.0f;
+        public float NEUTn { get; set; } = 0.0f;
+        public float RBC { get; set; } = 0.0f;
+        public float HGB { get; set; } = 0.0f;
+        public float HCT { get; set; } = 0.0f;
+        public float MCV { get; set; } = 0.0f;
+        public float MCH { get; set; } = 0.0f;
+        public float MCHC { get; set; } = 0.0f;
+        public float PLT { get; set; } = 0.0f;
+        public float PDW { get; set; } = 0.0f;
+        public float PCT { get; set; } = 0.0f;
+    }
+
+    private CBCInput cbc = new();
+    private string? diagnosis = null;
+
+    private async Task SendPrediction()
+    {
+        try
+        {
+            var options = new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = null // Use exact property names
+            };
+            
+            var json = JsonSerializer.Serialize(cbc, options);
+            var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+            
+            var response = await Http.PostAsync("http://localhost:8000/predict", content);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                diagnosis = "Error calling API: " + response.ReasonPhrase;
+                return;
+            }
+
+            var result = await response.Content.ReadFromJsonAsync<PredictionResult>();
+            diagnosis = result?.diagnosis ?? "No result";
+        }
+        catch (Exception ex)
+        {
+            diagnosis = "Exception: " + ex.Message;
+        }
+    }
+
+    public class PredictionResult
+    {
+        public string diagnosis { get; set; }
+    }
+}

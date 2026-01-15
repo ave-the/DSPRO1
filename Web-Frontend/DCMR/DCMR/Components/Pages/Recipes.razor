@@ -1,0 +1,44 @@
+@page "/recipes"
+@inject IHuggingFaceClient HF
+
+<h3>Rezepte Generator</h3>
+
+@foreach (var ing in Ingredients)
+{
+    <div>
+        <input type="checkbox" @bind="ing.IsSelected" />
+        @ing.Name
+    </div>
+}
+
+<button @onclick="GenerateRecipes">Rezepte generieren</button>
+
+@if (!string.IsNullOrWhiteSpace(JsonResponse))
+{
+    <pre>@JsonResponse</pre>
+}
+
+@code {
+    [Parameter]
+    public List<Ingredient> Ingredients { get; set; } = new List<Ingredient>();
+
+    private string JsonResponse = string.Empty;
+
+    private async Task GenerateRecipes()
+    {
+        var selectedIngredients = Ingredients
+            .Where(i => i.IsSelected)
+            .Select(i => i.Name)
+            .ToList();
+
+        if (selectedIngredients.Count == 0)
+        {
+            JsonResponse = "Bitte wählen Sie mindestens eine Zutat aus.";
+            return;
+        }
+
+        var prompt = $"Erstelle ein Rezept mit den folgenden Zutaten: {string.Join(", ", selectedIngredients)}. Gib das Ergebnis im JSON-Format zurück mit den Feldern 'title', 'ingredients' und 'instructions'.";
+
+        //JsonResponse = await HF.GetRecipeAsync(prompt);
+    }
+}

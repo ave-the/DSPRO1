@@ -1,0 +1,218 @@
+﻿@page "/ingredients-iron"
+@rendermode InteractiveServer
+@inject OllamaClient OllamaClient
+
+@using System.Globalization
+@using System.Diagnostics
+@attribute [StreamRendering]
+
+@inject HttpClient Http
+@inject IJSRuntime JS
+@inject IWebHostEnvironment Env
+@inject IHuggingFaceClient HF
+
+<h1>Ingredients</h1>
+
+
+
+@if (ingredients == null || ingredients.Count == 0)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Serving size (g)</th>
+                <th>Iron amount (mg)</th>
+                <th>Percentage daily value (%)</th>
+                <th>Is Vegetarian</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var ingredient in ingredients)
+        {
+            <tr @onclick="() => ToggleIngredientAsync(ingredient)" style="cursor: pointer;">
+                <td>
+                    <input type="checkbox"
+                        @bind="ingredient.IsSelected"
+                        @onclick:stopPropagation="true" />
+                </td>
+                <td>@ingredient.Name</td>
+                <td>@ingredient.Serving</td>
+                <td>@ingredient.AmountMg</td>
+                <td>@ingredient.PercentageDV</td>
+                <td>@(ingredient.IsVegetarian ? "Yes" : "No")</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    <h3>Selected ingredients</h3>
+    <ul>
+        @foreach (var ing in ingredients.Where(i => i.IsSelected))
+        {
+            <li>@ing.Name (@ing.AmountMg mg)</li>
+        }
+    </ul>
+
+    <button @onclick="GenerateRecipes" class="mb-2" disabled="@_isLoading">Generate recipes</button>
+    <pre>Recipe:
+            @_answer</pre>
+}
+
+@code {
+    private string _answer = string.Empty;
+    private bool _isLoading = false;
+    private string _buttonText = "Ask for recipe";
+    private List<Ingredient> ingredients = new();
+
+    private string JsonResponse = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCsv();
+    }
+
+    private async Task ToggleIngredientAsync(Ingredient ingredient)
+    {
+        ingredient.IsSelected = !ingredient.IsSelected;
+    }
+
+    private async Task GenerateRecipes()
+    {
+        _isLoading = true;
+        _buttonText = "Thinking...";
+        var selectedIngredients = ingredients
+            .Where(i => i.IsSelected)
+            .Select(i => i)
+            .ToList();
+
+        if (selectedIngredients.Count <= 0)
+        {
+            JsonResponse = "Bitte wählen Sie mindestens eine Zutat aus.";
+            _isLoading = false;
+            _buttonText = "";
+            return;
+        }
+        
+        var result = string.Join(", ", selectedIngredients);
+        
+        var prompt = "Make me a recipe with:" + result +
+                     " and show me the iron content. If you cannot find a recipe with exact that, tell me what ingredient you didn't include and give me an alternative similar ingredient in the recipe.";
+        try
+        {
+            _answer = await OllamaClient.GenerateAsync(prompt);
+
+            _isLoading = false;
+            _buttonText = "Ask for recipe";
+        }
+        catch (Exception e)
+        {
+            _answer = "Failed";
+        }
+
+        @* var prompt = $"Erstelle ein Rezept mit den folgenden Zutaten: {string.Join(", ", selectedIngredients)}. Gib das Ergebnis im JSON-Format zurück mit den Feldern 'title', 'ingredients' und 'instructions'."; *@
+
+        @* JsonResponse = await HF.GetRecipeAsync(selectedIngredients); *@
+    }
+
+    private async Task LoadCsv()
+    {
+        Console.WriteLine("Loading CSV file...");
+
+        
+        var path = Path.Combine(Env.ContentRootPath, @"wwwroot/data", "top_200_iron_cleaned.csv");
+
+        // Datei als Stream öffnen
+        await using var stream = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.Read);
+
+        using var reader = new StreamReader(stream);
+
+        string? line;
+        bool skipHeader = true;
+
+        while ((line = await reader.ReadLineAsync()) != null)
+        {
+            if (skipHeader) { skipHeader = false; continue; }
+
+            var columns = SplitCsvLine(line);
+
+            if (columns.Length < 5)
+                continue;
+
+            ingredients.Add(new Ingredient
+            {
+                Name = CleanName(columns[1]),
+                Serving = ParseFloat(columns[2]),
+                AmountMg = ParseFloat(columns[3]),
+                PercentageDV = ParseFloat(columns[4]),
+                Micronutrient = "iron",
+                IsVegetarian = false,
+                IsSelected = false
+            });
+        }
+    }
+
+    private string[] SplitCsvLine(string line)
+    {
+        var result = new List<string>();
+        bool inQuotes = false;
+        string current = "";
+
+        foreach (char c in line)
+        {
+            if (c == '\"')
+            {
+                inQuotes = !inQuotes;
+                continue;
+            }
+
+            if (c == ',' && !inQuotes)
+            {
+                result.Add(current);
+                current = "";
+            }
+            else
+            {
+                current += c;
+            }
+        }
+
+        result.Add(current);
+        return result.ToArray();
+    }
+
+    private float ParseFloat(string raw)
+    {
+        var cleaned = new string(raw.Where(c => char.IsDigit(c) || c == '.' || c == '-').ToArray());
+        float.TryParse(cleaned, NumberStyles.Any, CultureInfo.InvariantCulture, out float value);
+        return value;
+    }
+
+    private string CleanName(string input)
+    {
+        input = input.Trim();
+
+        if (input.StartsWith("\"") && input.EndsWith("\""))
+            input = input[1..^1];
+
+        input = input.Replace(",", " ");
+
+        return input.Trim();
+    }
+
+/*    private class Ingredient
+    {
+        public string? Name { get; set; }
+        public float Serving { get; set; }
+        public float AmountMg { get; set; }
+        public float PercentageDV { get; set; }
+        public bool IsVegetarian { get; set; }
+
+        public bool IsSelected { get; set; }  // UI selection
+    }*/
+}

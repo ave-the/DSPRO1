@@ -1,0 +1,7 @@
+﻿services:
+  dcmr:
+    image: dcmr
+    build:
+      context: .
+      dockerfile: DCMR/Dockerfile
+
