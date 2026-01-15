@@ -10,6 +10,7 @@ from pydantic import create_model
 from sklearn.model_selection import train_test_split, KFold, cross_val_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
+import os
 
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -17,7 +18,11 @@ from fastapi.middleware.cors import CORSMiddleware
 # ------------------------------------------------------------
 # 1. Daten laden und Modell einmalig trainieren
 # ------------------------------------------------------------
-df = pd.read_csv("Datasets/diagnosed_cbc_data_v4.csv")
+script_dir = os.path.dirname(os.path.realpath(__file__))
+csv_path = os.path.join(script_dir, "Datasets", "diagnosed_cbc_data_v4.csv")
+
+# Load with full path
+df = pd.read_csv(csv_path)
 print("Loaded columns:", list(df.columns))
 
 # Features und Zielvariable
@@ -85,4 +90,4 @@ def predict(input_data: CBCInput):
     prediction = rf.predict(df_scaled)[0]
 
     # Nur Klassifikation zurückgeben
-    return {"diagnosis": str(input_data)}
+    return {"diagnosis": str(prediction)}
