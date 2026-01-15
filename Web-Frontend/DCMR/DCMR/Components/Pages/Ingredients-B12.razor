@@ -125,7 +125,7 @@ else
         Console.WriteLine("Loading CSV file...");
 
         
-        var path = Path.Combine(Env.ContentRootPath, @"wwwroot/Data", "top_200_vitamin_b12_v2_cleaned.csv");
+        var path = Path.Combine(Env.ContentRootPath, @"wwwroot/data", "top_200_vitamin_b12_v2_cleaned.csv");
 
         // Datei als Stream öffnen
         await using var stream = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.Read);
